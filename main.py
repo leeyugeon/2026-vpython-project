@@ -1,6 +1,5 @@
 Web VPython 3.2
-s= sphere(texture = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-1GDgoU_D_6Ha3PoLsqWLjEcxZyyGvzaeeopedkCdZg&s=10")
-
+s= sphere(texture = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-1GDgoU_D_6Ha3PoLsqWLjEcxZyyGvzaeeopedkCdZg&s=10",make_trail = True)
 while True :
     rate(100)
     k = keysdown()
